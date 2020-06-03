@@ -1,0 +1,7 @@
+*.swp
+.DS_Store
+plugged/
+sessions/
+.netrwhist
+_machine_specific.vim
+tmp
