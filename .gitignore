@@ -5,3 +5,5 @@ sessions/
 .netrwhist
 _machine_specific.vim
 tmp
+.XTablineBookmarks
+.XTablineSessions
