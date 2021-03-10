@@ -61,9 +61,6 @@ set colorcolumn=100
 set updatetime=100
 set virtualedit=block
 
-au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-" automaticaly delects all trailing whitespace on save
-autocmd BufWritePre * %s/\s\+$//e
 " ===
 " === Basic Mappings
 " ===
