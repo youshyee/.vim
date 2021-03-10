@@ -13,8 +13,8 @@
 " ===
 " === System
 " ===
-set clipboard=unnamedplus
-let &t_ut=''
+" set clipboard=unnamedplus
+" let &t_ut=''
 set autochdir
 
 " ===
@@ -33,7 +33,7 @@ set noexpandtab
 set tabstop=2
 set shiftwidth=2
 set autoindent
-set list
+" set list " lead to $ end of the line
 set scrolloff=4
 set ttimeoutlen=0
 set notimeout
