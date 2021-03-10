@@ -7,15 +7,6 @@
 "         |___/
 " Author: xinyu
 
-" ===
-" === Auto load for first time uses
-" ===
-if empty(glob('~/.config/nvim/autoload/plug.vim'))
-	silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
-				\ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-	autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-endif
-
 " ====================
 " === Editor Setup ===
 " ====================
@@ -125,8 +116,6 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-
-tnoremap <C-n> <C-\><C-n> " this line will lead to esc not function in fzf previewer
 
 " " Press ` to change case (instead of ~)
 noremap ` ~
