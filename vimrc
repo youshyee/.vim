@@ -144,6 +144,7 @@ noremap <M-0> 10gt
 nnoremap zz <Esc>/<++><CR>:nohlsearch<CR>c4l
 nnoremap ,. <Esc>a<++><Esc>
 inoremap ,. <++>
+
 call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-repeat'
 Plug 'vim-airline/vim-airline'
