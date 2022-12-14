@@ -142,6 +142,7 @@ noremap <M-9> 9gt
 noremap <M-0> 10gt
 
 nnoremap zz <Esc>/<++><CR>:nohlsearch<CR>c4l
+nnoremap zz <Esc>:nohlsearch<CR>
 nnoremap ,. <Esc>a<++><Esc>
 inoremap ,. <++>
 
@@ -152,9 +153,9 @@ Plug 'ajmwagar/vim-deus'
 Plug 'crusoexia/vim-dracula'
 Plug 'gcmt/wildfire.vim' " in Visual mode, type i' to select all text in '', or type i) i] i} ip
 Plug 'tpope/vim-surround' " type ysiw' to wrap the word with '' or type cs'` to change 'word' to `word`
-Plug 'tomtom/tcomment_vim' " in <space>/ to comment a line or <space>; to comment inline
+Plug 'tomtom/tcomment_vim' " in z/ to comment a line or <space>; to comment inline
 Plug 'godlygeek/tabular' " :Tabularize <regex> to align
-Plug 'Chiel92/vim-autoformat' "format text by \f
+" Plug 'Chiel92/vim-autoformat' "format text by \f
 Plug 'lambdalisue/suda.vim' " do stuff like :sudowrite
 call plug#end()
 " ## set color
@@ -172,6 +173,7 @@ let g:tcomment_maps = 0 " no preload comment
 vmap z/ :TComment<CR>
 noremap z/ :TComment<CR>
 nmap z; :TCommentRight<CR>
+
 " ===
 " === floatterm
 " ===
